@@ -17,6 +17,8 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  
+console.log("DASHBOARD LAYOUT");
   return (
     <html lang="en">
       <body>
@@ -26,3 +28,5 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
+
